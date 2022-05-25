@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/dark_grey"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Anggota Kelompok"
+        android:textColor="@color/light_grey"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/foto1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/img_adi"
+        app:layout_constraintStart_toStartOf="@+id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/nama1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/light_grey"
+        android:text="MUHAMMAD ADI AGUM"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/foto1"
+        app:layout_constraintTop_toTopOf="@+id/foto1" />
+
+    <TextView
+        android:id="@+id/stambuk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F55119109"
+        android:textColor="@color/light_grey"
+        app:layout_constraintStart_toStartOf="@+id/nama1"
+        app:layout_constraintTop_toBottomOf="@+id/nama1" />
+
+
+    <ImageView
+        android:id="@+id/foto2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/img_enggar"
+        app:layout_constraintStart_toStartOf="@+id/foto1"
+        app:layout_constraintTop_toBottomOf="@+id/foto1" />
+
+    <TextView
+        android:id="@+id/nama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:text="ENGGARTIASNA ALIFIANTO HARUN"
+        android:textColor="@color/light_grey"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/foto2"
+        app:layout_constraintTop_toTopOf="@+id/foto2" />
+
+    <TextView
+        android:id="@+id/stambuk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F55119085"
+        android:textColor="@color/light_grey"
+        app:layout_constraintStart_toStartOf="@+id/nama2"
+        app:layout_constraintTop_toBottomOf="@+id/nama2" />
+
+
+
+
+    <ImageView
+        android:id="@+id/foto3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/img_iki"
+        app:layout_constraintStart_toStartOf="@+id/foto2"
+        app:layout_constraintTop_toBottomOf="@+id/foto2" />
+
+    <TextView
+        android:id="@+id/nama3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:text="MOH. RIFKY DALY"
+        android:textColor="@color/light_grey"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/foto3"
+        app:layout_constraintTop_toTopOf="@+id/foto3" />
+
+    <TextView
+        android:id="@+id/stambuk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_grey"
+        android:text="F55119104"
+        app:layout_constraintStart_toStartOf="@+id/nama3"
+        app:layout_constraintTop_toBottomOf="@+id/nama3" />
+
+
+
+    <ImageView
+        android:id="@+id/foto4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/img_mifka"
+        app:layout_constraintStart_toStartOf="@+id/foto3"
+        app:layout_constraintTop_toBottomOf="@+id/foto3" />
+
+    <TextView
+        android:id="@+id/nama4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:text="MIFKA"
+        android:textStyle="bold"
+        android:textColor="@color/light_grey"
+        app:layout_constraintStart_toEndOf="@+id/foto4"
+        app:layout_constraintTop_toTopOf="@+id/foto4" />
+
+    <TextView
+        android:id="@+id/stambuk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F55119112"
+        android:textColor="@color/light_grey"
+        app:layout_constraintStart_toStartOf="@+id/nama4"
+        app:layout_constraintTop_toBottomOf="@+id/nama4" />
+
+
+
+
+    <ImageView
+        android:id="@+id/foto5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/img_wawan"
+        app:layout_constraintStart_toStartOf="@+id/foto4"
+        app:layout_constraintTop_toBottomOf="@+id/foto4" />
+
+    <TextView
+        android:id="@+id/nama5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:text="SHAFWAN HIDAYAT"
+        android:textStyle="bold"
+        android:textColor="@color/light_grey"
+        app:layout_constraintStart_toEndOf="@+id/foto5"
+        app:layout_constraintTop_toTopOf="@+id/foto5" />
+
+    <TextView
+        android:id="@+id/stambuk5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F55119114"
+        android:textColor="@color/light_grey"
+        app:layout_constraintStart_toStartOf="@+id/nama5"
+        app:layout_constraintTop_toBottomOf="@+id/nama5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
